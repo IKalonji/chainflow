@@ -1,6 +1,5 @@
 from argparse import ArgumentParser
 
-
 def main():
     parser = ArgumentParser(prog='cli')
     parser.add_argument('name', help="The user's name.")
